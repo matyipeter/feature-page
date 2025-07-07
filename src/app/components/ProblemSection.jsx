@@ -53,13 +53,13 @@
             {/* Item 4 */}
             <div className="bg-white rounded-lg shadow-sm p-6">
                 <h3 className="font-semibold text-lg mb-2">
-                    Poor Communication
+                  Eleged van a bonyolult rendszerekből?
                 </h3>
                 <p className="text-sm text-gray-700 mb-1">
-                    Struggling to keep tenants informed and engaged?
+                Más szoftverek túl összetettek, átláthatatlanok, és csak fejfájást okoznak?
                 </p>
                 <p className="text-sm text-gray-600">
-                    Send announcements and updates through built-in messaging.
+                  Válts egy egyszerű, érthető és könnyen használható megoldásra – minden, amire szükséged van, felesleges bonyodalmak nélkül.
                 </p>
             </div>
 

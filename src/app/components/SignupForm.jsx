@@ -18,7 +18,14 @@ export default function UnderDevelopmentSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // TODO: Connect to backend or API
+    // fetch('/api/suggestion', {
+    //  method: 'POST',
+    //  headers: {
+    //    'Content-Type': 'application/json',
+    //  },
+    //  body: JSON.stringify(formData),
+    //  });
+
     console.log('Suggestion submitted:', formData);
 
     setSubmitted(true);
