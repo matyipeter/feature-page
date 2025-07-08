@@ -42,7 +42,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="bg-blue-600 text-white px-4 py-2 rounded-r-md hover:bg-blue-700 transition"
+                className="bg-black text-white px-4 py-2 rounded-r-md hover:bg-gray-900 transition"
               >
                 Feliratkozás
               </button>

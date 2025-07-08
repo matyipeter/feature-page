@@ -12,13 +12,13 @@ export default function Menu() {
 
                 {/* Center: Navigation Links (hidden on small screens) */}
                 <div className="hidden md:flex space-x-8 text-sm font-medium">
-                    <a href="#product" className="hover:text-gray-600 transition">
+                    <a href="/" className="hover:text-gray-600 transition">
                         Termék
                     </a>
                     <a href="#features" className="hover:text-gray-600 transition">
                         Funkciók
                     </a>
-                    <a href="#blog" className="hover:text-gray-600 transition">
+                    <a href="/blog" className="hover:text-gray-600 transition">
                         Blog
                     </a>
                     <a href="#pricing" className="hover:text-gray-600 transition">
@@ -72,7 +72,7 @@ export default function Menu() {
             {isOpen && (
                 <div className="md:hidden mt-4 space-y-3 text-center text-sm font-medium">
                     <a
-                        href="#product"
+                        href="/"
                         className="block hover:text-gray-600 transition"
                     >
                         Termék
@@ -84,7 +84,7 @@ export default function Menu() {
                         Funkciók
                     </a>
                     <a
-                        href="#Blog"
+                        href="/blog"
                         className="block hover:text-gray-600 transition"
                     >
                         Blog

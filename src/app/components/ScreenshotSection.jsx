@@ -3,18 +3,18 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const dashboard = '/dashboard.jpg';
-const messaging = '/dashb.png';
-const finances = '/lease.png';
+const properties = '/properties.png';
+const add  = '/add property.png';
+const finances = '/finances.png';
 
 const images = [
   {
-    src: dashboard,
-    alt: 'Fő irányítópult',
+    src: properties,
+    alt: 'Portfolio',
   },
   {
-    src: messaging,
-    alt: 'Üzenetküldés',
+    src: add,
+    alt: 'Ingatlan hozzáadása',
   },
   {
     src: finances,

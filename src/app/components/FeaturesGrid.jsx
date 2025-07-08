@@ -32,7 +32,7 @@ export default function CoreFeatures() {
   }, []);
 
   return (
-    <section className="bg-[#f5f5f5] text-gray-900 py-20">
+    <section id="features" className="bg-[#f5f5f5] text-gray-900 py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fő funkciók</h2>
         <p className="text-gray-700 mb-12 max-w-2xl mx-auto">
