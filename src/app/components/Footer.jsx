@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f5f5f5] text-gray-900 py-12">
+    <footer id="contact" className="bg-[#f5f5f5] text-gray-900 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-10">
 
@@ -17,10 +17,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Hasznos linkek</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="hover:text-blue-600 transition">Főoldal</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition">Funkciók</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition">Árak</a></li>
-              <li><a href="#" className="hover:text-blue-600 transition">Kapcsolat</a></li>
+              <li><a href="/" className="hover:text-blue-600 transition">Főoldal</a></li>
+              <li><a href="#features" className="hover:text-blue-600 transition">Funkciók</a></li>
+              <li><a href="#try" className="hover:text-blue-600 transition">Kipróbálom!</a></li>
             </ul>
           </div>
 

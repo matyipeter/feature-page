@@ -18,16 +18,20 @@ export default function Menu() {
                     <a href="#features" className="hover:text-gray-600 transition">
                         Funkciók
                     </a>
-                    <a href="/blog" className="hover:text-gray-600 transition">
-                        Blog
+                    <a href="#demo" className="hover:text-gray-600 transition">
+                        Demo
                     </a>
-                    <a href="#pricing" className="hover:text-gray-600 transition">
-                        Árak
+                    <a href="#help" className="hover:text-gray-600 transition">
+                        Támogatás
+                    </a>
+                    <a href="#contact" className="hover:text-gray-600 transition">
+                        Kapcsolat
                     </a>
                 </div>
 
                 {/* Right: Login / Sign Up + Hamburger for links */}
                 <div className="flex items-center space-x-4">
+                    {/*}
                     <a
                         href="#login"
                         className="text-sm border border-gray-400 hover:border-gray-500 px-3 py-1.5 rounded-md transition"
@@ -40,6 +44,9 @@ export default function Menu() {
                     >
                         Regisztráció
                     </a>
+                    */}
+
+                    
 
                     {/* Hamburger (only shows on small screens) */}
                     <button
@@ -84,16 +91,22 @@ export default function Menu() {
                         Funkciók
                     </a>
                     <a
-                        href="/blog"
+                        href="#demo"
                         className="block hover:text-gray-600 transition"
                     >
-                        Blog
+                        Demo
                     </a>
                     <a
-                        href="#pricing"
+                        href="#help"
                         className="block hover:text-gray-600 transition"
                     >
-                        Árak
+                        Támogatás
+                    </a>
+                    <a
+                        href="#contact"
+                        className="block hover:text-gray-600 transition"
+                    >
+                        Kapcsolat
                     </a>
                 </div>
             )}

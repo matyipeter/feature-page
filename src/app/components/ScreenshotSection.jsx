@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const properties = '/properties.png';
-const add  = '/add property.png';
-const finances = '/finances.png';
+const details = '/detail.png';
+const properties = '/portfolio.png';
+const add  = '/add.png';
+const finances = '/finance.png';
 
 const images = [
   {
@@ -15,6 +16,10 @@ const images = [
   {
     src: add,
     alt: 'Ingatlan hozzáadása',
+  },
+  {
+    src: details,
+    alt: 'Ingatlan részletek',
   },
   {
     src: finances,
@@ -35,11 +40,12 @@ export default function ScreenshotSection() {
   };
 
   return (
-    <section className="bg-[#f5f5f5] text-gray-900 py-20">
+    <section id="demo" className="bg-[#f5f5f5] text-gray-900 py-20">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">
           Eddigi funkciók / Demó alkalmazás
         </h2>
+        
 
         {/* Main selected image with arrows */}
         <div className="relative w-full h-[400px] sm:h-[500px] mb-8 flex items-center justify-center">
@@ -86,6 +92,17 @@ export default function ScreenshotSection() {
               />
             </button>
           ))}
+
+          
+
+        </div>
+        <div className="flex justify-center mt-4">
+        <a
+                    href="#proba"
+                    className="bg-gray-900 text-white px-6 py-3 rounded-md text-l font-medium hover:bg-gray-800 transition"
+                >
+                    Kipróbálom!
+                </a>
         </div>
       </div>
     </section>

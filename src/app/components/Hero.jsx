@@ -1,4 +1,4 @@
-const imageUrl = "/app-hero.png";
+const imageUrl = '/dashboard.png';
 
 export default function Hero() {
   return (
@@ -12,18 +12,18 @@ export default function Hero() {
             <p className="text-lg text-gray-700 mb-8">
                 A Rentivo egy könnyen használható platform, amely segít az ingatlanok
                 kezelésében, bérlők nyilvántartásában és a pénzügyi tranzakciók
-                egyszerűsítésében.
+                követésében.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 <a
-                    href="#signup"
-                    className="bg-gray-900 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-gray-800 transition"
+                    href="#proba"
+                    className="bg-gray-900 text-white px-6 py-3 rounded-md text-xl font-medium hover:bg-gray-800 transition"
                 >
-                    Regisztráció
+                    Kipróbálom!
                 </a>
                 <a
                     href="#features"
-                    className="border border-gray-600 text-gray-900 px-6 py-3 rounded-md text-sm font-medium hover:border-gray-800 transition"
+                    className="border border-gray-600 text-gray-900 px-6 py-3 rounded-md text-l font-medium hover:border-gray-800 transition"
                 >
                     Fedezd fel a funkciókat!
                 </a>

@@ -33,13 +33,16 @@ export default function UnderDevelopmentSection() {
   };
 
   return (
-    <section className="bg-[#f5f5f5] text-gray-900 py-20">
+    <section id="help" className="bg-[#f5f5f5] text-gray-900 py-20">
       <div className="max-w-3xl mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           A Rentivo fejlesztés alatt áll
         </h2>
         <p className="text-gray-700 mb-10 max-w-xl mx-auto">
           Dolgozunk rajta, hogy a lehető legjobb megoldást hozzuk el számodra! Addig is, ha van ötleted, javaslatod vagy visszajelzésed, oszd meg velünk!
+        </p>
+        <p className="text-gray-700 mb-10 max-w-xl mx-auto">
+          Amennyiben ki szeretnéd próbálni az alkalmazást, vedd fel velünk a kapcsolatot!
         </p>
 
         {submitted ? (
